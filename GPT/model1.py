@@ -93,4 +93,24 @@ class Block(nn.Module):
         return x
 
 class GPT(nn.Module):
-    
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.h = nn.ModuleList([Block() for _ in range(n_blocks)])
+        self.softmax = nn.Softmax(dim = -1)
+        self.ln = LayerNorm()
+        self.wpe = nn.Embedding(block_size, n_embd)
+        self.wte = nn.Embedding(vocab_size, n_embd)
+        self.lm_head = nn.Linear(n_embd, vocab_size)
+
+    def forward(self, x, targets = None):
+        B, T = x.size()
+        pos = torch.arnage(0, T, dtype = torch.long, device = device)
+        x = self.wpe(pos) + self.wte(x)
+        for block in self.h:
+            x = block(x)
+        x = self.ln(x)
+        logits = self.lm_head(x)
+
+        if targets is not None:
+            criterion = nn.CrossEntropyLoss()
+            loss = criterion()
