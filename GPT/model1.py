@@ -114,3 +114,18 @@ class GPT(nn.Module):
         if targets is not None:
             criterion = nn.CrossEntropyLoss()
             loss = criterion()
+        else:
+            loss = None
+
+        return logits, loss
+
+    @torch.no_grad()
+    def generate(self, context, max_new_token, temperature = 1.0):
+        for _ in range(max_new_token):
+            context_cond = context[:block_size]
+            logits, _ = self(context_cond)
+            logits = logits[:, -1, :] / temperature
+            probs = self.softmax(logits)
+            context_next = torch.multinomial(probs, num_samples = -1)
+            context = torch.cat([context, context_next], dim = -1)
+        return context
