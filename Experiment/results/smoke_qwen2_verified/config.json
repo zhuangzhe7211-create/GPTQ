@@ -1,0 +1,55 @@
+{
+  "args": {
+    "smoke": true,
+    "smoke_arch": "qwen2",
+    "model": null,
+    "revision": "main",
+    "allow_download": false,
+    "calibration": null,
+    "validation": null,
+    "device": "cpu",
+    "dtype": "float32",
+    "target": "model.layers.1.self_attn.o_proj",
+    "samples": 2,
+    "eval_samples": 2,
+    "seq_len": 16,
+    "bits": 4,
+    "groups": 4,
+    "rho": 0.5,
+    "alpha": 0.25,
+    "damp": 0.01,
+    "blocksize": 8,
+    "seed": 0,
+    "out": "results/smoke_qwen2_verified"
+  },
+  "python": "3.14.0",
+  "torch": "2.13.0+cpu",
+  "transformers": "5.15.0",
+  "model_commit": null,
+  "calibration_window_hashes": [
+    "4bf9146c173661bad121b958030d49b9e4ef6fa9cef8d2089ae2f10179922d6f",
+    "d336737869e4aceca40665f1dee74d80505530fd1792e4dc77fa1abe9ead57c0"
+  ],
+  "validation_window_hashes": [
+    "062eb194f2fc17589a7be21986f6fed2408a596f4a9ec8da02c50f1769e07105",
+    "37bf88424cc5b3326e9854a9a1667bea3e0311017a31e3f3cbc3e06df17b7367"
+  ],
+  "kind": "random_model_smoke",
+  "prefix": "RTN all Linear modules in complete blocks before target block; target block otherwise FP",
+  "scope": "official ResComp module kernel + fixed row quantizer, not official full-model benchmark",
+  "source_sha256": {
+    "run_pilot.py": "2d0df03ab6789b9b72217f0970e8f0b2bd88651324c3a0b3780260c6c19652e0",
+    "quant_core.py": "424544ad2cce459de5e58c3325a1fe5e9ee883b13ac7fe3b8b064d71079e0f4a"
+  },
+  "official_core": {
+    "repository": "https://github.com/list0830/ResComp",
+    "commit": "354a96255e1738e4063212599402503e43e2013d",
+    "files": {
+      "gptaq_utils_r.py": {
+        "url": "https://raw.githubusercontent.com/list0830/ResComp/354a96255e1738e4063212599402503e43e2013d/fake_quant/gptaq_utils_r.py",
+        "sha256": "91a958b82b84efd78893c77d09e224339832a71a44a5cb5220495a99d7df9352"
+      }
+    },
+    "license_note": "No LICENSE at repository root in pinned commit; source retained for local research with provenance."
+  }
+}

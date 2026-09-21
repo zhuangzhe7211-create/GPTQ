@@ -1,0 +1,97 @@
+{
+  "floating_point": {
+    "ce": 4.870643138885498,
+    "ppl": 130.40475830365338,
+    "sequence_ce": [
+      4.903781414031982,
+      4.837504863739014
+    ],
+    "scored_tokens": 30
+  },
+  "common_rtn_prefix": {
+    "ce": 4.8685383796691895,
+    "ppl": 130.1305763314988,
+    "sequence_ce": [
+      4.902803897857666,
+      4.834272861480713
+    ],
+    "scored_tokens": 30
+  },
+  "rtn_target": {
+    "ce": 4.86646294593811,
+    "ppl": 129.86077901400657,
+    "sequence_ce": [
+      4.902200698852539,
+      4.830725193023682
+    ],
+    "scored_tokens": 30,
+    "calibration_mse": 7.641623938070552e-07,
+    "calibration_task_mse": 7.567129571839359e-07,
+    "validation_mse": 8.088931053862325e-07,
+    "quantization_seconds": 0.00011749996338039637,
+    "delta_ce_vs_rescomp": -0.0012371540069580078
+  },
+  "gptaq_nd_reference": {
+    "ce": 4.8680455684661865,
+    "ppl": 130.0664623249773,
+    "sequence_ce": [
+      4.902384281158447,
+      4.833706855773926
+    ],
+    "scored_tokens": 30,
+    "calibration_mse": 2.0051719218372455e-07,
+    "calibration_task_mse": 1.9585369415153764e-07,
+    "validation_mse": 5.18735475907306e-07,
+    "quantization_seconds": 0.009424099989701062,
+    "delta_ce_vs_rescomp": 0.00034546852111816406
+  },
+  "rescomp_official_core": {
+    "ce": 4.867700099945068,
+    "ppl": 130.02153621731563,
+    "sequence_ce": [
+      4.902196884155273,
+      4.833203315734863
+    ],
+    "scored_tokens": 30,
+    "calibration_mse": 2.0576946724304435e-07,
+    "calibration_task_mse": 2.0253793309166213e-07,
+    "validation_mse": 5.194257823859516e-07,
+    "quantization_seconds": 0.01728450000518933,
+    "delta_ce_vs_rescomp": 0.0
+  },
+  "task_weighted_rescomp": {
+    "ce": 4.867646217346191,
+    "ppl": 130.0145305077789,
+    "sequence_ce": [
+      4.90245246887207,
+      4.8328399658203125
+    ],
+    "scored_tokens": 30,
+    "calibration_mse": 2.0731224026349082e-07,
+    "calibration_task_mse": 2.0431236791296215e-07,
+    "validation_mse": 5.237819209469308e-07,
+    "quantization_seconds": 0.14862620003987104,
+    "delta_ce_vs_rescomp": -5.3882598876953125e-05
+  },
+  "shuffled_weight_rescomp": {
+    "ce": 4.867161512374878,
+    "ppl": 129.95152708876748,
+    "sequence_ce": [
+      4.901882648468018,
+      4.832440376281738
+    ],
+    "scored_tokens": 30,
+    "calibration_mse": 2.1100268554619106e-07,
+    "calibration_task_mse": 2.0685948598497816e-07,
+    "validation_mse": 4.925702228320006e-07,
+    "quantization_seconds": 0.07238659996073693,
+    "delta_ce_vs_rescomp": -0.0005385875701904297
+  },
+  "_summary": {
+    "all_one_regression": "passed",
+    "total_seconds": 0.6266574999899603,
+    "peak_cuda_bytes": 0,
+    "quality_evidence": false,
+    "warning": "Single-module validation pilot; no held-out test or full-model superiority claim."
+  }
+}

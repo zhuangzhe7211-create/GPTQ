@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/list0830/ResComp",
+  "commit": "354a96255e1738e4063212599402503e43e2013d",
+  "files": {
+    "gptaq_utils_r.py": {
+      "url": "https://raw.githubusercontent.com/list0830/ResComp/354a96255e1738e4063212599402503e43e2013d/fake_quant/gptaq_utils_r.py",
+      "sha256": "91a958b82b84efd78893c77d09e224339832a71a44a5cb5220495a99d7df9352"
+    }
+  },
+  "license_note": "No LICENSE at repository root in pinned commit; source retained for local research with provenance."
+}
