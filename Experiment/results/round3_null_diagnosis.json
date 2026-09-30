@@ -1,0 +1,12 @@
+{
+  "identical_all_one_scores": true,
+  "identical_H_C": true,
+  "different_weight_count": 206,
+  "total_weights": 802816,
+  "first_differing_column": 267,
+  "row": 771,
+  "full_row_batch_pre_round_grid_value": -1.4999998807907104,
+  "group_row_batch_pre_round_grid_value": -1.5,
+  "pre_round_difference": 1.1920928955078125e-07,
+  "conclusion": "Same statistics, different row-batch FP32 updates cross a half-integer rounding boundary"
+}

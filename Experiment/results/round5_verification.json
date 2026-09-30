@@ -1,0 +1,54 @@
+{
+  "complete": true,
+  "cpu_only": true,
+  "candidate_checkpoints_on_original_fixed_grid": 246,
+  "grid_check": "Exact reconstruction using original GPTQ code-1 scales; CPU absmax/7 differs by <=1.2e-7 relative due to CPU/CUDA scalar division.",
+  "holdout_records": 67,
+  "selection_recomputed_from_development": true,
+  "frozen_hashes_unchanged": true,
+  "unused_article_ids_checked": 73,
+  "per_seed_block_vs_control": [
+    {
+      "prefix": "rtn",
+      "seed": 0,
+      "block_ppl": 23.75802098525408,
+      "control_ppl": 26.871261535432133,
+      "delta_ce": -0.12313717195432483
+    },
+    {
+      "prefix": "rtn",
+      "seed": 1,
+      "block_ppl": 23.74715702828014,
+      "control_ppl": 26.82595932347514,
+      "delta_ce": -0.12190723092588662
+    },
+    {
+      "prefix": "rtn",
+      "seed": 2,
+      "block_ppl": 23.719949665315905,
+      "control_ppl": 26.886853597868395,
+      "delta_ce": -0.12532100122268908
+    },
+    {
+      "prefix": "gptq",
+      "seed": 0,
+      "block_ppl": 20.147946899675148,
+      "control_ppl": 20.457478769807672,
+      "delta_ce": -0.015246133281759722
+    },
+    {
+      "prefix": "gptq",
+      "seed": 1,
+      "block_ppl": 20.026194903204097,
+      "control_ppl": 20.539847738672286,
+      "delta_ce": -0.02532562980913111
+    },
+    {
+      "prefix": "gptq",
+      "seed": 2,
+      "block_ppl": 20.162521261418508,
+      "control_ppl": 20.58869787386948,
+      "delta_ce": -0.020916780380353828
+    }
+  ]
+}

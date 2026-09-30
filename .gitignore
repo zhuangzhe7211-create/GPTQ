@@ -1,0 +1,22 @@
+# Preserve upstream Git metadata locally while publishing source snapshots.
+**/.source-git/
+
+# Local environments and generated build/cache files.
+**/__pycache__/
+**/*.pyc
+**/.pytest_cache/
+**/.venv/
+**/venv/
+**/.env
+**/.env.*
+**/*.pyd
+**/build/
+**/dist/
+**/*.egg-info/
+
+# Large experiment tensors stay local; reports and metrics remain tracked.
+Experiment/**/*.pt
+Experiment/**/*.pth
+Experiment/**/*.ckpt
+Experiment/**/*.safetensors
+Experiment/.hf_cache/

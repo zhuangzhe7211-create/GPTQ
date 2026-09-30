@@ -1,0 +1,40 @@
+{
+  "0": {
+    "max_ce_difference": 0.0,
+    "weight_equality": {
+      "gptaq_a0.25": true,
+      "gptaq_a0.5": true,
+      "gptaq_a1": true,
+      "gptq_reference": true,
+      "rescomp_a0.25": true,
+      "rescomp_a0.5": true,
+      "rescomp_a1": true,
+      "rms1_a0.25": true,
+      "rms1_a0.5": true,
+      "rms1_a1": true,
+      "rtn_target": true,
+      "weak1_a0.25": true,
+      "weak1_a0.5": true,
+      "weak1_a1": true
+    }
+  },
+  "1": {
+    "max_ce_difference": 0.0,
+    "weight_equality": {
+      "gptaq_a0.25": true,
+      "gptaq_a0.5": true,
+      "gptaq_a1": true,
+      "gptq_reference": true,
+      "rescomp_a0.25": true,
+      "rescomp_a0.5": true,
+      "rescomp_a1": true,
+      "rms1_a0.25": true,
+      "rms1_a0.5": true,
+      "rms1_a1": true,
+      "rtn_target": true,
+      "weak1_a0.25": true,
+      "weak1_a0.5": true,
+      "weak1_a1": true
+    }
+  }
+}

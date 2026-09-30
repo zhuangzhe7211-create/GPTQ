@@ -1,0 +1,68 @@
+{
+  "rule": "One alpha per family, chosen by mean validation CE across all three calibration seeds",
+  "selected": {
+    "rescomp": "rescomp_a0.5",
+    "gptaq": "gptaq_a0.5",
+    "teacher": "teacher_a0.5",
+    "prefix": "prefix_a0.5",
+    "shared": "shared_a0.5",
+    "fixed_rescomp": "rescomp_a0.25",
+    "fixed_teacher": "teacher_a0.25"
+  },
+  "validation_ce": {
+    "rescomp": {
+      "rescomp_a0.25": 3.3884602387746177,
+      "rescomp_a0.5": 3.3840609590212503,
+      "rescomp_a1": 3.3868229476114116
+    },
+    "gptaq": {
+      "gptaq_a0.25": 3.387836971630653,
+      "gptaq_a0.5": 3.3836067294081054,
+      "gptaq_a1": 3.389564510434866
+    },
+    "teacher": {
+      "teacher_a0.25": 3.3878738917410374,
+      "teacher_a0.5": 3.3846964401503405,
+      "teacher_a1": 3.387500607719024
+    },
+    "prefix": {
+      "prefix_a0.25": 3.3887693944076696,
+      "prefix_a0.5": 3.384904783219099,
+      "prefix_a1": 3.3887727508942285
+    },
+    "shared": {
+      "shared_a0.25": 3.388225495815277,
+      "shared_a0.5": 3.3841667547822,
+      "shared_a1": 3.3887846445043883
+    }
+  },
+  "checkpoint_sha256": {
+    "results\\round2_s0\\prefix_a0.5.pt": "432fdad24af79d45bad733100c32b0809bbebd14345a5c5e8200ee48a066c78f",
+    "results\\round2_s0\\rescomp_a0.5.pt": "cee7b1596c9ebf4980b21e866871bdf78cc383db8b843ed206af528e3568a2b3",
+    "results\\round2_s0\\teacher_a0.25.pt": "6462ad732f3318c3eb73dadf2def14a3cd1e87bd31cfb90ee7182d582d08e931",
+    "results\\round2_s0\\shared_a0.5.pt": "7e5b449d95361e9054a0021db2eca3b927f1699fc5f4a578aadb23bed8519a2b",
+    "results\\round2_s0\\gptaq_a0.5.pt": "67819b958f6c437caf94905358ce9c1ac3abdd95ec326ddd5fb9ecd2ff1e9bd0",
+    "results\\round2_s0\\teacher_a0.5.pt": "ebc62c27aa94c5a0e113658303d0ca2c1887151c5575036c3d94ae58452c67ce",
+    "results\\round2_s0\\rescomp_a0.25.pt": "161715247a7b70c8d4686f22571466e9fef89d97010b73e1d3fb21423f449cb9",
+    "results\\round2_s1\\prefix_a0.5.pt": "e36eddcde9248cc427f814a2e485bd37f7b7ebbc550b3d823b1cb53707120d65",
+    "results\\round2_s1\\rescomp_a0.5.pt": "0a913220e7a1306aa77548b600b9e265e6a7d9e600f2f899257d3f4c313e6008",
+    "results\\round2_s1\\teacher_a0.25.pt": "7bdd6fe2264f6f88a0b533d059f0cf49e28ae2a4dd5f7f4f801f9db3a0af6798",
+    "results\\round2_s1\\shared_a0.5.pt": "b14cd90cae0faca0b878b94b723a2905112cbb2a52e9402cf1de3dcf7982c1f2",
+    "results\\round2_s1\\gptaq_a0.5.pt": "74f0cd2dccc2f02e50e424da531d069a1b8ed8d065a92d7e6861e2e57dae77aa",
+    "results\\round2_s1\\teacher_a0.5.pt": "6df358a971c1c71f15b77e408dc6de4cf70db6ce92563ddefa239f8a0653aebf",
+    "results\\round2_s1\\rescomp_a0.25.pt": "8d8560f067f16f585242940ec7f8c88245e4e4e8c1b79557d11ae6387de7a9f1",
+    "results\\round2_s2\\prefix_a0.5.pt": "c01854ee0fce33b08311b9a25b1a9c4f5cde18373178dd415a0d521671623214",
+    "results\\round2_s2\\rescomp_a0.5.pt": "bb6ae7d1a150ab14825eddc485fce41215197910b49ec45fac6d779329b6e587",
+    "results\\round2_s2\\teacher_a0.25.pt": "f7cf4806be171fd0c1a746736bd016eb57851555d350fe0171cc8cdafd3c127c",
+    "results\\round2_s2\\shared_a0.5.pt": "1ba498c3c302e4d0f4bd8441d6a9f03aec4f81b0d35ec0c5220bcb4e42b5ca0c",
+    "results\\round2_s2\\gptaq_a0.5.pt": "8c716f3943ade75518dd63faf76467e0e5528d82b07cde2b797be36c16e76218",
+    "results\\round2_s2\\teacher_a0.5.pt": "ae5d44ca0f29d4ecfa2d281c1c55cd364d41612ad22f66d29f9196e4c218bc85",
+    "results\\round2_s2\\rescomp_a0.25.pt": "ac51c8e301637e9708ee0d0e525f99c586fab08526d45d0cf0a7c6235619f0b9"
+  },
+  "evaluation_source_sha256": "7b69ea41749d20e25ecf93d7db2b24a56c01dc5a8c53586b8a7aab1c6d77e8dd",
+  "runs": [
+    "C:\\GPTQ\\Experiment\\results\\round2_s0",
+    "C:\\GPTQ\\Experiment\\results\\round2_s1",
+    "C:\\GPTQ\\Experiment\\results\\round2_s2"
+  ]
+}

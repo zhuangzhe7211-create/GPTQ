@@ -1,0 +1,32 @@
+{
+  "allocator_cap_gib": 4.0,
+  "global_memory_stop_mib": 8192,
+  "temperature_stop_c": 78,
+  "pause_seconds": 0.04,
+  "peak_allocated_gib": 2.5601491928100586,
+  "peak_reserved_gib": 2.8671875,
+  "samples": [
+    {
+      "time": 1790484792.9844759,
+      "used_mib": 1516.0,
+      "free_mib": 10480.0,
+      "temperature_c": 43.0,
+      "ram_available_gib": 15.193923950195312
+    },
+    {
+      "time": 1790484795.001725,
+      "used_mib": 3699.0,
+      "free_mib": 8297.0,
+      "temperature_c": 43.0,
+      "ram_available_gib": 13.79599380493164
+    },
+    {
+      "time": 1790484797.199104,
+      "used_mib": 1953.0,
+      "free_mib": 10043.0,
+      "temperature_c": 45.0,
+      "ram_available_gib": 12.308231353759766
+    }
+  ],
+  "quality_evidence": false
+}

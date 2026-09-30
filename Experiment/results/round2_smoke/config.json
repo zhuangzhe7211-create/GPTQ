@@ -1,0 +1,77 @@
+{
+  "args": {
+    "smoke": true,
+    "smoke_arch": "qwen2",
+    "model": null,
+    "revision": "main",
+    "allow_download": false,
+    "calibration": null,
+    "validation": null,
+    "device": "cuda",
+    "dtype": "float32",
+    "target": "model.layers.1.self_attn.o_proj",
+    "samples": 2,
+    "eval_samples": 2,
+    "seq_len": 16,
+    "bits": 4,
+    "groups": 4,
+    "rho": 0.5,
+    "alpha": 0.25,
+    "damp": 0.01,
+    "blocksize": 8,
+    "seed": 0,
+    "refine": true,
+    "out": "results/round2_smoke"
+  },
+  "python": "3.14.2",
+  "torch": "2.13.0+cu132",
+  "transformers": "5.15.0",
+  "model_commit": null,
+  "calibration_window_hashes": [
+    "4bf9146c173661bad121b958030d49b9e4ef6fa9cef8d2089ae2f10179922d6f",
+    "d336737869e4aceca40665f1dee74d80505530fd1792e4dc77fa1abe9ead57c0"
+  ],
+  "validation_window_hashes": [
+    "062eb194f2fc17589a7be21986f6fed2408a596f4a9ec8da02c50f1769e07105",
+    "37bf88424cc5b3326e9854a9a1667bea3e0311017a31e3f3cbc3e06df17b7367"
+  ],
+  "kind": "random_model_smoke",
+  "prefix": "RTN all Linear modules in complete blocks before target block; target block otherwise FP",
+  "scope": "official ResComp module kernel + fixed row quantizer, not official full-model benchmark",
+  "source_sha256": {
+    "run_pilot.py": "ae0b473eff151e2b0c8bf8fed1071883582499bf37de617f55cfbfba538e9e2b",
+    "quant_core.py": "5ec762b860407f822e2bc4045ccece82af88fc193f42697c824f41977eb49852"
+  },
+  "official_core": {
+    "repository": "https://github.com/list0830/ResComp",
+    "commit": "354a96255e1738e4063212599402503e43e2013d",
+    "files": {
+      "gptaq_utils_r.py": {
+        "url": "https://raw.githubusercontent.com/list0830/ResComp/354a96255e1738e4063212599402503e43e2013d/fake_quant/gptaq_utils_r.py",
+        "sha256": "91a958b82b84efd78893c77d09e224339832a71a44a5cb5220495a99d7df9352"
+      }
+    },
+    "license_note": "No LICENSE at repository root in pinned commit; source retained for local research with provenance."
+  },
+  "refinement": {
+    "alpha_grid": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "shuffle_seeds": [
+      100,
+      101,
+      102
+    ],
+    "families": [
+      "rescomp",
+      "gptaq",
+      "teacher",
+      "prefix",
+      "shared"
+    ],
+    "prefix_gradient": "Quantized prefix with original FP target weight; calibration only",
+    "calibration_task_mse": "Common teacher-derived metric for every candidate, not prefix fitting objective"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "run_round7.py": "c7c6b387ff4d2d5d9a7ae084ae5b7725489b7dcd7ef5b36f02c03351e9fe8c57",
+  "evaluate_round7.py": "2be74ca8c7fe3367c2e3676025418de219eaae81baf5b738695a4700320e1514",
+  "prepare_round7_holdout.py": "a457724cad4288b297f50382c26537d412497ff24cf625ff22ddf1cd35e393f2",
+  "round7_safety.py": "2f6bcc27ed8215ea0b77341ca7bc50a6c1a70818ed6e9ebdf544be4f096f31bf",
+  "gpu_safety.py": "e8a66f7ce2dea38f9c67abc9a40842a9c8d9cfbed68db3fb80bd1f742c0b8675",
+  "run_round7.ps1": "05f94afe142f4287c794b5e98af770c2aa93b87e139467039405af001df7db7a",
+  "test_round7.py": "efe33fe9fdc5728bfc4b0c7b4e71b3457fe9426a2fb6697f39e622b852ba40fc",
+  "round7_protocol.md": "feac9f525d134c1ecea5c02dcaefde66a37a65ed5b69a8daeabb8743bcdd9719",
+  "evaluate_round7_with_selection_control.py": "a5bc267e5db4aa0051d7907e3c189df8b7c84c095da676157e15e736d0fee7fa",
+  "round7_protocol_with_selection_control.md": "95dee68da9ccf310787a74de11dcbc281244083df387dcb21cdf61c335ccbf26",
+  "summarize_round7_final.py": "a9aa4b25047a8c77e7c11c3f82236280ba8a435f0d010803dfe4be32f69dd8b6",
+  "write_round7_report_final.py": "5f029ac75c30ee5f8a755304b0defc60eccd959695db91e8086ed32603922289",
+  "test_round7_with_selection_control.py": "3395448ab8e9b4cf486b49f400f45da2a4a614bed1e9626ac43260e8a4873604",
+  "resume_round7.py": "a3f04edd4862cf04efe754f88ae0a3aacf5677132f6fc96d464f0e5a851c7ccd",
+  "RUN_SAFELY_final.md": "f6be3384cd120cd9591961804809a0534eb3f4905e4c2dccdaca8a2a9ada68fc",
+  "TECHNICAL_WALKTHROUGH.md": "b964ae9dab29bc53af2bacf49022c0dea11d46b7434a6f42217a4385c740eaf3"
+}

@@ -1,0 +1,297 @@
+{
+  "allocator_cap_gib": 4.0,
+  "global_memory_stop_mib": 8192,
+  "temperature_stop_c": 78,
+  "pause_seconds": 0.04,
+  "peak_allocated_gib": 2.277266025543213,
+  "peak_reserved_gib": 2.43359375,
+  "samples": [
+    {
+      "time": 1790487193.1885939,
+      "used_mib": 1487.0,
+      "free_mib": 10509.0,
+      "temperature_c": 46.0,
+      "ram_available_gib": 14.691749572753906
+    },
+    {
+      "time": 1790487195.1932535,
+      "used_mib": 4058.0,
+      "free_mib": 7938.0,
+      "temperature_c": 53.0,
+      "ram_available_gib": 12.214279174804688
+    },
+    {
+      "time": 1790487197.2084165,
+      "used_mib": 4058.0,
+      "free_mib": 7938.0,
+      "temperature_c": 59.0,
+      "ram_available_gib": 12.808341979980469
+    },
+    {
+      "time": 1790487199.274759,
+      "used_mib": 4054.0,
+      "free_mib": 7942.0,
+      "temperature_c": 56.0,
+      "ram_available_gib": 12.891212463378906
+    },
+    {
+      "time": 1790487201.2893004,
+      "used_mib": 4058.0,
+      "free_mib": 7938.0,
+      "temperature_c": 58.0,
+      "ram_available_gib": 13.141307830810547
+    },
+    {
+      "time": 1790487203.3394933,
+      "used_mib": 4058.0,
+      "free_mib": 7938.0,
+      "temperature_c": 60.0,
+      "ram_available_gib": 13.38510513305664
+    },
+    {
+      "time": 1790487205.412928,
+      "used_mib": 4058.0,
+      "free_mib": 7938.0,
+      "temperature_c": 51.0,
+      "ram_available_gib": 13.22647476196289
+    },
+    {
+      "time": 1790487207.4561763,
+      "used_mib": 4059.0,
+      "free_mib": 7937.0,
+      "temperature_c": 60.0,
+      "ram_available_gib": 13.189170837402344
+    },
+    {
+      "time": 1790487209.4569476,
+      "used_mib": 4059.0,
+      "free_mib": 7937.0,
+      "temperature_c": 58.0,
+      "ram_available_gib": 13.194454193115234
+    },
+    {
+      "time": 1790487211.4701765,
+      "used_mib": 4063.0,
+      "free_mib": 7933.0,
+      "temperature_c": 57.0,
+      "ram_available_gib": 13.209884643554688
+    },
+    {
+      "time": 1790487213.477966,
+      "used_mib": 4063.0,
+      "free_mib": 7933.0,
+      "temperature_c": 59.0,
+      "ram_available_gib": 13.12185287475586
+    },
+    {
+      "time": 1790487215.487316,
+      "used_mib": 4063.0,
+      "free_mib": 7933.0,
+      "temperature_c": 60.0,
+      "ram_available_gib": 13.753219604492188
+    },
+    {
+      "time": 1790487217.5212336,
+      "used_mib": 4063.0,
+      "free_mib": 7933.0,
+      "temperature_c": 58.0,
+      "ram_available_gib": 13.558670043945312
+    },
+    {
+      "time": 1790487219.5296307,
+      "used_mib": 4065.0,
+      "free_mib": 7931.0,
+      "temperature_c": 59.0,
+      "ram_available_gib": 13.450363159179688
+    },
+    {
+      "time": 1790487221.5655844,
+      "used_mib": 1893.0,
+      "free_mib": 10103.0,
+      "temperature_c": 50.0,
+      "ram_available_gib": 10.850536346435547
+    },
+    {
+      "time": 1790487223.7029757,
+      "used_mib": 3874.0,
+      "free_mib": 8122.0,
+      "temperature_c": 49.0,
+      "ram_available_gib": 12.81766128540039
+    },
+    {
+      "time": 1790487225.7185905,
+      "used_mib": 4199.0,
+      "free_mib": 7797.0,
+      "temperature_c": 56.0,
+      "ram_available_gib": 12.816883087158203
+    },
+    {
+      "time": 1790487227.7181225,
+      "used_mib": 4199.0,
+      "free_mib": 7797.0,
+      "temperature_c": 57.0,
+      "ram_available_gib": 12.918842315673828
+    },
+    {
+      "time": 1790487229.7448843,
+      "used_mib": 1929.0,
+      "free_mib": 10067.0,
+      "temperature_c": 53.0,
+      "ram_available_gib": 11.153976440429688
+    },
+    {
+      "time": 1790487231.7888658,
+      "used_mib": 1927.0,
+      "free_mib": 10069.0,
+      "temperature_c": 49.0,
+      "ram_available_gib": 11.165458679199219
+    },
+    {
+      "time": 1790487233.812321,
+      "used_mib": 4194.0,
+      "free_mib": 7802.0,
+      "temperature_c": 54.0,
+      "ram_available_gib": 12.339347839355469
+    },
+    {
+      "time": 1790487235.8232007,
+      "used_mib": 4190.0,
+      "free_mib": 7806.0,
+      "temperature_c": 59.0,
+      "ram_available_gib": 12.32461929321289
+    },
+    {
+      "time": 1790487238.132297,
+      "used_mib": 1920.0,
+      "free_mib": 10076.0,
+      "temperature_c": 53.0,
+      "ram_available_gib": 11.142913818359375
+    },
+    {
+      "time": 1790487240.1991618,
+      "used_mib": 1925.0,
+      "free_mib": 10071.0,
+      "temperature_c": 51.0,
+      "ram_available_gib": 11.14194107055664
+    },
+    {
+      "time": 1790487242.2214975,
+      "used_mib": 1926.0,
+      "free_mib": 10070.0,
+      "temperature_c": 48.0,
+      "ram_available_gib": 11.136604309082031
+    },
+    {
+      "time": 1790487244.2801504,
+      "used_mib": 4196.0,
+      "free_mib": 7800.0,
+      "temperature_c": 50.0,
+      "ram_available_gib": 12.941753387451172
+    },
+    {
+      "time": 1790487246.3207538,
+      "used_mib": 4196.0,
+      "free_mib": 7800.0,
+      "temperature_c": 56.0,
+      "ram_available_gib": 12.947864532470703
+    },
+    {
+      "time": 1790487248.3790226,
+      "used_mib": 4196.0,
+      "free_mib": 7800.0,
+      "temperature_c": 58.0,
+      "ram_available_gib": 12.940841674804688
+    },
+    {
+      "time": 1790487250.3881001,
+      "used_mib": 1927.0,
+      "free_mib": 10069.0,
+      "temperature_c": 52.0,
+      "ram_available_gib": 11.098796844482422
+    },
+    {
+      "time": 1790487252.4156237,
+      "used_mib": 4197.0,
+      "free_mib": 7799.0,
+      "temperature_c": 64.0,
+      "ram_available_gib": 12.316692352294922
+    },
+    {
+      "time": 1790487254.4618814,
+      "used_mib": 4197.0,
+      "free_mib": 7799.0,
+      "temperature_c": 58.0,
+      "ram_available_gib": 12.31351089477539
+    },
+    {
+      "time": 1790487256.459382,
+      "used_mib": 1926.0,
+      "free_mib": 10070.0,
+      "temperature_c": 54.0,
+      "ram_available_gib": 11.127235412597656
+    },
+    {
+      "time": 1790487258.5007129,
+      "used_mib": 1926.0,
+      "free_mib": 10070.0,
+      "temperature_c": 50.0,
+      "ram_available_gib": 11.132125854492188
+    },
+    {
+      "time": 1790487260.5388703,
+      "used_mib": 4196.0,
+      "free_mib": 7800.0,
+      "temperature_c": 50.0,
+      "ram_available_gib": 12.857662200927734
+    },
+    {
+      "time": 1790487262.5908766,
+      "used_mib": 4196.0,
+      "free_mib": 7800.0,
+      "temperature_c": 56.0,
+      "ram_available_gib": 12.868560791015625
+    },
+    {
+      "time": 1790487264.6663442,
+      "used_mib": 4196.0,
+      "free_mib": 7800.0,
+      "temperature_c": 56.0,
+      "ram_available_gib": 12.874465942382812
+    },
+    {
+      "time": 1790487266.699852,
+      "used_mib": 1926.0,
+      "free_mib": 10070.0,
+      "temperature_c": 53.0,
+      "ram_available_gib": 11.141582489013672
+    },
+    {
+      "time": 1790487268.7180054,
+      "used_mib": 1973.0,
+      "free_mib": 10023.0,
+      "temperature_c": 49.0,
+      "ram_available_gib": 11.065929412841797
+    },
+    {
+      "time": 1790487270.7560208,
+      "used_mib": 1968.0,
+      "free_mib": 10028.0,
+      "temperature_c": 48.0,
+      "ram_available_gib": 11.065338134765625
+    },
+    {
+      "time": 1790487272.798188,
+      "used_mib": 4235.0,
+      "free_mib": 7761.0,
+      "temperature_c": 56.0,
+      "ram_available_gib": 12.218730926513672
+    },
+    {
+      "time": 1790487274.7990382,
+      "used_mib": 4235.0,
+      "free_mib": 7761.0,
+      "temperature_c": 56.0,
+      "ram_available_gib": 12.26266098022461
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "ptb_valid": {
+    "repository": "https://github.com/wojzaremba/lstm",
+    "commit": "76870253cfca069477f06b7056af87f98490b6eb",
+    "url": "https://raw.githubusercontent.com/wojzaremba/lstm/76870253cfca069477f06b7056af87f98490b6eb/data/ptb.valid.txt",
+    "sha256": "c9fe6985fe0d4ccb578183407d7668fc6066c20700cb4cf87d8ff1cc34df1bf2",
+    "bytes": 399782
+  },
+  "shakespeare": {
+    "repository": "https://github.com/karpathy/char-rnn",
+    "commit": "6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e",
+    "url": "https://raw.githubusercontent.com/karpathy/char-rnn/6f9487a6fe5b420b7ca9afb0d7c078e37c1d1b4e/data/tinyshakespeare/input.txt",
+    "sha256": "86c4e6aa9db7c042ec79f339dcb96d42b0075e16b8fc2e86bf0ca57e2dc565ed",
+    "bytes": 1115394
+  }
+}

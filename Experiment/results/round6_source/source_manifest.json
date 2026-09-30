@@ -1,0 +1,18 @@
+{
+  "run_round6.py": "17b443add95f51d7db505b86f78b540a57d887e7ebd6751a5c816875e6b1085c",
+  "evaluate_round6.py": "fe825bbfba017886b6b149f05221e100ac2d8a1b4a33c7758d6bb9702253c0bf",
+  "prepare_round6_holdout.py": "d67712defd8c78e369700a645f41a1a1e2c5a7966843e6d609a4a3011a66dfaf",
+  "test_round6.py": "4a5b6f6e5ac2cc985b4ab0c68d0d09bae77265de17096944d681a56b36aa4780",
+  "run_round6.ps1": "a931531f3c529fd6432936c961f02715e58e70438bf909d460f1346e6dfd5763",
+  "gpu_safety.py": "e8a66f7ce2dea38f9c67abc9a40842a9c8d9cfbed68db3fb80bd1f742c0b8675",
+  "run_round5.py": "b262f43416f487763287fb917471b46f8db378bb7d6206898cef29ac7c0d32b2",
+  "quant_core.py": "92e40ceadd99d3878ff76200535fa834edfecdb3278d125add1f5f00d374e6c7",
+  "run_pilot.py": "22c1efa171b4eaaf0a87a5fee7e3dae7cd0bf32f020bf98e8c2d9a9e3df19c66",
+  "round6_protocol.md": "cd5fab2663daf0e2e1d05916730be788930a35febcfbad93a250dafac13ff416",
+  "run_round6_bounded.py": "1c85cac9e79b683ce5690ffd48033b092405c2516eb61a4922a105309ef69c9a",
+  "evaluate_round6_with_bounded.py": "3be10458b401b8c1dd7266c19a2e081858ec1ee8be8f9f4e2a21705513685c2f",
+  "test_round6_with_bounded.py": "1bb26eb2bb66920231304f3ea9d7e1332e5b49f151acc27110bd5c8fad5ae381",
+  "round6_protocol_with_bounded.md": "8d21cbf6d648bee087a96db82c9ec4f8fb5d2f276f24baab54bd197caafee91f",
+  "summarize_round6_final.py": "1d1703d4c48aaedc3194835e85b1eefed0497ce0c690d58d2ac77e312e13f666",
+  "write_round6_report_final.py": "4ba5eb4c92f196305961307442bbc86501a9fee2fcbb487358509a0d45deff61"
+}

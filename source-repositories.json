@@ -1,0 +1,38 @@
+﻿[
+    {
+        "path":  "GPTAQ/code",
+        "upstream":  "https://github.com/Intelligent-Computing-Lab-Panda/GPTAQ.git",
+        "revision":  "d6bd2e41e9abc8f22a76d6ea789c450b6c143ced",
+        "metadata_backup":  "GPTAQ/code/.source-git"
+    },
+    {
+        "path":  "GPTQ/code",
+        "upstream":  "git@github.com:IST-DASLab/gptq.git",
+        "revision":  "2d65066eeb06a5c9ff5184d8cebdf33662c67faf",
+        "metadata_backup":  "GPTQ/code/.source-git"
+    },
+    {
+        "path":  "GuidedQuant/code",
+        "upstream":  "https://github.com/snu-mllab/GuidedQuant.git",
+        "revision":  "62bf3b8d6b54693ecccca6c7bbb32b3fcaded953",
+        "metadata_backup":  "GuidedQuant/code/.source-git"
+    },
+    {
+        "path":  "KronQ/code",
+        "upstream":  "https://github.com/Intelligent-Computing-Lab-Panda/KronQ.git",
+        "revision":  "c1f84d2f556a2906bd8ac8e0faebe42a9faaf10b",
+        "metadata_backup":  "KronQ/code/.source-git"
+    },
+    {
+        "path":  "ResComp/code",
+        "upstream":  "https://github.com/list0830/ResComp.git",
+        "revision":  "354a96255e1738e4063212599402503e43e2013d",
+        "metadata_backup":  "ResComp/code/.source-git"
+    },
+    {
+        "path":  "YAQA/code",
+        "upstream":  "https://github.com/Cornell-RelaxML/yaqa-quantization.git",
+        "revision":  "f9508723251ad839f0162326569f17fe70486fcc",
+        "metadata_backup":  "YAQA/code/.source-git"
+    }
+]

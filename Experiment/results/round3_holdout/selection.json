@@ -1,0 +1,230 @@
+{
+  "selected": {
+    "6": {
+      "rescomp": "rescomp_a0.25",
+      "gptaq": "gptaq_a0.25",
+      "square4": "square4_a0.25",
+      "weak4": "weak4_a0.25",
+      "weak1": "weak1_a0.25",
+      "square1": "square1_a0.25",
+      "rms1": "rms1_a0.25"
+    },
+    "12": {
+      "rescomp": "rescomp_a1",
+      "gptaq": "gptaq_a0.5",
+      "square4": "square4_a0.5",
+      "weak4": "weak4_a0.5",
+      "weak1": "weak1_a1",
+      "square1": "square1_a0.5",
+      "rms1": "rms1_a0.5"
+    },
+    "18": {
+      "rescomp": "rescomp_a1",
+      "gptaq": "gptaq_a1",
+      "square4": "square4_a1",
+      "weak4": "weak4_a1",
+      "weak1": "weak1_a1",
+      "square1": "square1_a1",
+      "rms1": "rms1_a1"
+    }
+  },
+  "validation_ce": {
+    "6": {
+      "rescomp": {
+        "rescomp_a0.25": 3.267323836684227,
+        "rescomp_a0.5": 3.267726023991903,
+        "rescomp_a1": 3.273651155332724
+      },
+      "gptaq": {
+        "gptaq_a0.25": 3.267515699068705,
+        "gptaq_a0.5": 3.268967293202877,
+        "gptaq_a1": 3.280321298787991
+      },
+      "square4": {
+        "square4_a0.25": 3.2676870624224343,
+        "square4_a0.5": 3.2681788181265197,
+        "square4_a1": 3.274414154390494
+      },
+      "weak4": {
+        "weak4_a0.25": 3.2677397280931473,
+        "weak4_a0.5": 3.268012752135595,
+        "weak4_a1": 3.273726106931766
+      },
+      "weak1": {
+        "weak1_a0.25": 3.267608869820833,
+        "weak1_a0.5": 3.2680249884724617,
+        "weak1_a1": 3.273884722342094
+      },
+      "square1": {
+        "square1_a0.25": 3.267677822460731,
+        "square1_a0.5": 3.2679274392624698,
+        "square1_a1": 3.274224456399679
+      },
+      "rms1": {
+        "rms1_a0.25": 3.2675023240347705,
+        "rms1_a0.5": 3.268282181272904,
+        "rms1_a1": 3.274200697739919
+      }
+    },
+    "12": {
+      "rescomp": {
+        "rescomp_a0.25": 3.388184826821089,
+        "rescomp_a0.5": 3.3840849014619985,
+        "rescomp_a1": 3.383663836866617
+      },
+      "gptaq": {
+        "gptaq_a0.25": 3.387941252440214,
+        "gptaq_a0.5": 3.383953735232353,
+        "gptaq_a1": 3.3857755921781063
+      },
+      "square4": {
+        "square4_a0.25": 3.3878735875089965,
+        "square4_a0.5": 3.383716603120168,
+        "square4_a1": 3.384344931691885
+      },
+      "weak4": {
+        "weak4_a0.25": 3.3883900518218675,
+        "weak4_a0.5": 3.3836471661925316,
+        "weak4_a1": 3.3840316298107305
+      },
+      "weak1": {
+        "weak1_a0.25": 3.3883591070771217,
+        "weak1_a0.5": 3.3834824301302433,
+        "weak1_a1": 3.3831966891884804
+      },
+      "square1": {
+        "square1_a0.25": 3.388555875668923,
+        "square1_a0.5": 3.383819645891587,
+        "square1_a1": 3.3839531714717546
+      },
+      "rms1": {
+        "rms1_a0.25": 3.388526391237974,
+        "rms1_a0.5": 3.383761261900266,
+        "rms1_a1": 3.383870717138052
+      }
+    },
+    "18": {
+      "rescomp": {
+        "rescomp_a0.25": 3.530799670765797,
+        "rescomp_a0.5": 3.5298039404054484,
+        "rescomp_a1": 3.5289997744063535
+      },
+      "gptaq": {
+        "gptaq_a0.25": 3.530825350433588,
+        "gptaq_a0.5": 3.5297985076904297,
+        "gptaq_a1": 3.5291214461127915
+      },
+      "square4": {
+        "square4_a0.25": 3.530545831968387,
+        "square4_a0.5": 3.530063350995382,
+        "square4_a1": 3.5293734781444073
+      },
+      "weak4": {
+        "weak4_a0.25": 3.530863399306933,
+        "weak4_a0.5": 3.5298186503350735,
+        "weak4_a1": 3.5290807572503886
+      },
+      "weak1": {
+        "weak1_a0.25": 3.5306331602235637,
+        "weak1_a0.5": 3.529838522275289,
+        "weak1_a1": 3.529062078644832
+      },
+      "square1": {
+        "square1_a0.25": 3.5308109981318316,
+        "square1_a0.5": 3.5301331765949726,
+        "square1_a1": 3.5289740450680256
+      },
+      "rms1": {
+        "rms1_a0.25": 3.530848336716493,
+        "rms1_a0.5": 3.529959760606289,
+        "rms1_a1": 3.5289479605853558
+      }
+    }
+  },
+  "checkpoint_sha256": {
+    "results\\round3_l6_s0\\rescomp_a0.25.pt": "2380656fcf0cb4f06f722ea0c290e66b405531d6757a76a18458b11d42d2c213",
+    "results\\round3_l6_s0\\gptaq_a0.25.pt": "32f710e39937ef4b7de32bb2d49bf7afc3f7ef071209521235f67540b4ae63db",
+    "results\\round3_l6_s0\\square4_a0.25.pt": "2c9ad3262e513defb138b75d5f98bd93280bc578e9cb734aea8f544ef27cea8a",
+    "results\\round3_l6_s0\\weak4_a0.25.pt": "9bf93a5ae1d454262dab972bf223b51fc5bbf531d582f0e50f2005244d5780ab",
+    "results\\round3_l6_s0\\weak1_a0.25.pt": "9e0018d98608ea525ae852ae2278d784a83668b889f50626ccd2c45e4e6f31b3",
+    "results\\round3_l6_s0\\square1_a0.25.pt": "562690f22996fff4eb512273e5b131f04d0a37044ad6ce148376fd484849aadd",
+    "results\\round3_l6_s0\\rms1_a0.25.pt": "d89add7a88f429c2650f16dac5a25d12c934920a368b24534803d1baae1a80c4",
+    "results\\round3_l6_s1\\rescomp_a0.25.pt": "5276b6b9cb0d90cf905b43e240b92c5487f1b5a50b455c088408a47b57c7812b",
+    "results\\round3_l6_s1\\gptaq_a0.25.pt": "437473ad3480d1291123884bfe64c28f74f3c85c157365fd78cbe5d35a8e54fb",
+    "results\\round3_l6_s1\\square4_a0.25.pt": "264a319f309d14dd24009af777f853d0c1c68efc3dd8d2cf7b88401069083ffc",
+    "results\\round3_l6_s1\\weak4_a0.25.pt": "14f7dd51236fd93588b4c064042ecf3b4ba79fadeae41fa440d2a04427ac3fab",
+    "results\\round3_l6_s1\\weak1_a0.25.pt": "27e4d31bfa8d6a35a446a5ac0a48f4c61e6ec3e6ffa5e8bf9337f9df6b9ea704",
+    "results\\round3_l6_s1\\square1_a0.25.pt": "451b3b7091753f4763f910368cd4faa67d5c58bf44b0887e37ebca211d999758",
+    "results\\round3_l6_s1\\rms1_a0.25.pt": "a5eb5b3c61eebd799a7b7e1fd5ac4b1d9d039011b337c9d5b57a3f6770a6105a",
+    "results\\round3_l6_s2\\rescomp_a0.25.pt": "6c6ac85339c5f90504da8a9338d65c82072ae7db4c047224f7478418eda03d5a",
+    "results\\round3_l6_s2\\gptaq_a0.25.pt": "aa117e4e6d49a5a0645787af6967c6bfb85f7a938b5efec3792ec5186ad19072",
+    "results\\round3_l6_s2\\square4_a0.25.pt": "075e8074fc0362669d6b184689755364ccc40de630fe68e92e3135df07df78cc",
+    "results\\round3_l6_s2\\weak4_a0.25.pt": "3d4a717962ef92046459e266289e5f13c597152ac15a2ef559b9dbaeb066dddd",
+    "results\\round3_l6_s2\\weak1_a0.25.pt": "ede5b0a31e1ede1c08bca28845810148355c2270886e50d64b4bc6704444894d",
+    "results\\round3_l6_s2\\square1_a0.25.pt": "049b1da0245bc58b2e27193d0efc1f22c01c34a3692f53c2731926154b7c2ada",
+    "results\\round3_l6_s2\\rms1_a0.25.pt": "48d07956863a9cc9b41929d70b0250856c4f4cfae2fa586885cca4677fb3c6f2",
+    "results\\round3_l12_s0\\rescomp_a1.pt": "e2a5d9523eaad4503d3560a9e8a35ee8c99a54de37cfbef169bc8dc152d58c0a",
+    "results\\round3_l12_s0\\gptaq_a0.5.pt": "0ee9e11163ef18612fd7708418fc7691f0c83905450ae48b6297b8768a75fa01",
+    "results\\round3_l12_s0\\square4_a0.5.pt": "f27a8647f90546fa0970fe662db5ca1cf63d4d2225f50daf9a0f23ede9b9bc1c",
+    "results\\round3_l12_s0\\weak4_a0.5.pt": "ab2d76c60c6924f809b548e11bf0a018a626fe22e3d7abfe238eac8d8c7899fb",
+    "results\\round3_l12_s0\\weak1_a1.pt": "cee2766e7042d56e90f92d52723ff6e14b5f1d3a5a26d08f0f13ed4c701aeef1",
+    "results\\round3_l12_s0\\square1_a0.5.pt": "b0065045a4dc9898c8c378ad81e5ec6f60d6d14c8366f65077d73efb2fceea34",
+    "results\\round3_l12_s0\\rms1_a0.5.pt": "513676f03c2d7c55bc1615d1ddd7224c0cd86a9abe0274e1b62e0773376f62e7",
+    "results\\round3_l12_s1\\rescomp_a1.pt": "f158c891fe648143ffaafac61563e891f09fb28f85cf08d74a1b70148df29739",
+    "results\\round3_l12_s1\\gptaq_a0.5.pt": "56e9b640cade60a8885d440c1cab73c28cd2ff6a8d936e74a0358d0cea801aaf",
+    "results\\round3_l12_s1\\square4_a0.5.pt": "331e1f454d7b64c372d5f2e94fb09b96abc8967d04ca3476720fddf358684fdc",
+    "results\\round3_l12_s1\\weak4_a0.5.pt": "8a2aebdffe697611884746adf2e8fb2dd68bdbe0ee347a99447ac8d34c567778",
+    "results\\round3_l12_s1\\weak1_a1.pt": "fe247d9faa983d16b2ca328509b6f1b0a5a0c42915c38aeb94024fc015f3ad1b",
+    "results\\round3_l12_s1\\square1_a0.5.pt": "a0a4d09ffbceeb3ccf1d155374f53d532549e500394ffdb90a2ec4fc98c6e8ce",
+    "results\\round3_l12_s1\\rms1_a0.5.pt": "e25b19e34084d923e46eea6a7ba87430ec40205b65f13c26beb3b7d0255437ea",
+    "results\\round3_l12_s2\\rescomp_a1.pt": "faef1bf5483eade131a11ee9b58063d9c6d1db1b313fff1e4dc67f9221c5f5b1",
+    "results\\round3_l12_s2\\gptaq_a0.5.pt": "9d981482af97ad41b786bbb0d51a59713e6ba8e861de1e05e0d9bc19925e0a90",
+    "results\\round3_l12_s2\\square4_a0.5.pt": "a396e322e5543d301d709ce6e56c879e2767e38256f4a13f6efee6b59cfbfad4",
+    "results\\round3_l12_s2\\weak4_a0.5.pt": "3d09990d5783b92d1807c653e99ff1d21e96c6ffc3b81f83178d706d0c21ad97",
+    "results\\round3_l12_s2\\weak1_a1.pt": "0c4fe645031109abbe9e2f5b193711f5a504e90c4dfb117fd017d561bfab8ab5",
+    "results\\round3_l12_s2\\square1_a0.5.pt": "11470b56bccdf42d5645152bfa03a859294d33120415d313014ad904266ffade",
+    "results\\round3_l12_s2\\rms1_a0.5.pt": "a70800ae1b233e07ad105b4175c1a8b69827af8fb967f25c4d815a47da283e1d",
+    "results\\round3_l18_s0\\rescomp_a1.pt": "8a6d1693176067d46e05c9e9a03d60297109fc5d94e736519ddaf056cc82b977",
+    "results\\round3_l18_s0\\gptaq_a1.pt": "473c5bc1f7a3d96d5428274571cc6755703adb2dda6fbee6d7b9849fb31ee162",
+    "results\\round3_l18_s0\\square4_a1.pt": "38aeeb4ccd63b7ef5e37bd25f5b533725db6435a00a9390e56bc7a572b84f92d",
+    "results\\round3_l18_s0\\weak4_a1.pt": "6d1b990059246dafaeb3ca84dd58085d44b1d18221f89ff5fcdd1f13481e2f11",
+    "results\\round3_l18_s0\\weak1_a1.pt": "941bd53d3608663f58e946192844ccd466b8eccbe7c0f5523a3d7e425e5dd432",
+    "results\\round3_l18_s0\\square1_a1.pt": "26de4805dc5272f6944955a3dc559a3b046e944143fd981c4e6c4f0d75410db6",
+    "results\\round3_l18_s0\\rms1_a1.pt": "aa2b22a7afa6e01b04be151b5b62debbd862494be264a18e28ffa68961633954",
+    "results\\round3_l18_s1\\rescomp_a1.pt": "0efa4fe425a49202225572d3223877e6adcd408d6b2cb1187c87da097dd14278",
+    "results\\round3_l18_s1\\gptaq_a1.pt": "c2309a1a3443d9bb32a3812748b8e9200742b64a0c33ae663931903f626157c2",
+    "results\\round3_l18_s1\\square4_a1.pt": "d51918a263b0993309a087abb72d89e4fb2e2005192f2e0a958e68a764c01401",
+    "results\\round3_l18_s1\\weak4_a1.pt": "cf53800952039f941f56cbaa6de11bbcc164fc9f145030a5aa52193649b06cca",
+    "results\\round3_l18_s1\\weak1_a1.pt": "29f79fca9cbccadd468a2345711471276facb9f3ac56328e53a322b4c7fae633",
+    "results\\round3_l18_s1\\square1_a1.pt": "eaff60cd26fd2fe25b9d6d4856a48eca0fedd4681fb789dd5c1642e695efd95a",
+    "results\\round3_l18_s1\\rms1_a1.pt": "6ec31edeea7972b7fa1b1909b7f272ead15b811ee6002b985d3209036126b48a",
+    "results\\round3_l18_s2\\rescomp_a1.pt": "fc80a4bedb5c9eec8b0bd2ce58a81755b74d2a02e0618769367456834b3394b8",
+    "results\\round3_l18_s2\\gptaq_a1.pt": "66c60a767645919ecb3b1323c8a5c6e8a6e95473b8f84f083b1fede42505bd64",
+    "results\\round3_l18_s2\\square4_a1.pt": "39acfded0a82a9d4cb3e8df5da56732b4c2524398ea37741e8e9bbac0b865a69",
+    "results\\round3_l18_s2\\weak4_a1.pt": "a2f1c122be15549cbfe575a07d44d2e81482f8013e7789c105c77b3858bcd583",
+    "results\\round3_l18_s2\\weak1_a1.pt": "3400807e0a793053a3a247dc699e9a6380c526b307ecc02c1788d4e37ea44a1e",
+    "results\\round3_l18_s2\\square1_a1.pt": "6c85d7125a27005e20b943001bb25c74320c9b84106f2eb4d8992bbf6fe0617c",
+    "results\\round3_l18_s2\\rms1_a1.pt": "bcb68b188c6d6b619999eb840ab421a7de75035fa9a5f62cf9fc42a77219aa56"
+  },
+  "config_sha256": {
+    "results\\round3_l6_s0\\config.json": "c3e997ebb3a3d3d73b09ef1224ad731fbaae274ddc6ec6d0803b1c0d152f985c",
+    "results\\round3_l6_s1\\config.json": "12d645bcefc77bd10fa14e5337db21084c9106d16121a65f72a59ef9792be0dc",
+    "results\\round3_l6_s2\\config.json": "e0a82f83797d06a6a8529cc12b320a1d4e49193f03d1acfb2f1ccc035a17654a",
+    "results\\round3_l12_s0\\config.json": "a27e82b8229a62ab280b922e25864aa0457da5973d6138a14f5af00d95bb512e",
+    "results\\round3_l12_s1\\config.json": "301f8f0e9a33982255426e58cc42b4c3c174dda232b85be81449c1e4e330712a",
+    "results\\round3_l12_s2\\config.json": "557b1a6818423df35fb992cdbf308e24d12acc18a5179517ab2739d6808969cd",
+    "results\\round3_l18_s0\\config.json": "81d51dd2e307522c02cd479dc52aba3ff27e6d73f59734e47daa0ef62825f106",
+    "results\\round3_l18_s1\\config.json": "adedb8aab79cd512c472be6bf7a268d48213860e208b17b1bf3a83dbdd65f49b",
+    "results\\round3_l18_s2\\config.json": "816714c2fa024c71a45b2c4ffe0fd12746bf6c11ef4ff1e782aadae66249fe29"
+  },
+  "evaluation_source_sha256": "397ba26742f1cd499f31747c09e411b6d8e78254f5b13921c7a7f9f19f8c27e7",
+  "rule": "For each layer/family choose one alpha by mean validation CE across three calibration seeds",
+  "core_compatibility": {
+    "allowed_sha256": [
+      "73fa96cd0a5f9c12224dd959b874f770334fa564b7a8b322ace85893509ad8bc",
+      "92e40ceadd99d3878ff76200535fa834edfecdb3278d125add1f5f00d374e6c7"
+    ],
+    "reason": "Only rho=0 endpoint dispatch changed; all scanned weighted candidates have rho>0. Positive-rho outputs regression-checked."
+  },
+  "holdout_manifest_sha256": "2f6b59aaabca0bfee6f21ce557e2e88f9e6da660ec3d050aaffbc3b06b43a502"
+}

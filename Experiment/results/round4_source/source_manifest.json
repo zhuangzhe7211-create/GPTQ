@@ -1,0 +1,16 @@
+{
+  "run_pilot.py": "aebe801bc71e2d120ea02f16e60f682bbb239fd62cf5f44df30c3b8ce47d3a50",
+  "quant_core.py": "92e40ceadd99d3878ff76200535fa834edfecdb3278d125add1f5f00d374e6c7",
+  "build_round4_prefix.py": "d634b839191fd12667bbffb445954b28f9a56168a75d0cca015d06e211fe895b",
+  "prepare_round4_holdout.py": "36a5825b135f542f35e3f6ceb816b11eb756dced3cbd2b7ff7881552a8133990",
+  "evaluate_round4.py": "0615f25b2c23a38cdb64862098bd0540e8fd2daa2b9355b3f2d7299b1acffb47",
+  "test_round4.py": "284c3cc728a032948ae84221d319ad8a6713bd15d80e719fe46d29233f77a02c",
+  "run_round4.ps1": "9231d835e11d9924fe203be09de8c71c206693b352f2cc1957ac78cffd118233",
+  "round4_protocol.md": "d2c7195ebd9d85ad7d328ab4b610c74924f01c88e3ef8009e3e59f686d178c01",
+  "run_pilot_large_diagnostics.py": "22c1efa171b4eaaf0a87a5fee7e3dae7cd0bf32f020bf98e8c2d9a9e3df19c66",
+  "run_round4_resumable.ps1": "71de4ab2394c45409662eddc446369e702fc104f0e97e69e943fdf8b12b94abb",
+  "evaluate_round4_cuda_prefix.py": "90742b74659415ff1c786eeb80f30e260d8609bdc4b986bd0b5f4107e13d7df2",
+  "diagnose_round4_prefix_device.py": "9c845f197b3b6a9197c8c89dad34abdd30fd0dfb4adb954445aba1b58b7a2985",
+  "summarize_round4.py": "0979d1272b0d061526bb7a2efe5bf0f9ee32b6adfa182f79d29df0c2221a260a",
+  "write_round4_report.py": "29a29027695179285c673b9d51f83fa44e4bd5ffaee65c051daa9f3383f1f3c3"
+}

@@ -1,0 +1,13 @@
+{
+  "prefix_linear_count": 84,
+  "relative_input_error": 0.8449446558952332,
+  "teacher_gradient_seconds": 1.7829990000464022,
+  "prefix_capture_seconds": 1.6271687999833375,
+  "gradient_abs_quantiles": [
+    0.0,
+    0.0001179169412353076,
+    0.0004335854318924248,
+    0.0010047060204669833,
+    0.009485287591814995
+  ]
+}

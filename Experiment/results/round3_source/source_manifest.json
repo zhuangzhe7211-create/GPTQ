@@ -1,0 +1,13 @@
+{
+  "run_pilot.py": "5115425ac6e4803c3d0f5589613ded848ae9ba30472b4c68871d7c39a7b27118",
+  "quant_core.py": "73fa96cd0a5f9c12224dd959b874f770334fa564b7a8b322ace85893509ad8bc",
+  "evaluate_refinement.py": "c378561a62184e8e3dbc513483c1317899c5c171f162d4d8cbeed36139473202",
+  "evaluate_iteration.py": "397ba26742f1cd499f31747c09e411b6d8e78254f5b13921c7a7f9f19f8c27e7",
+  "prepare_round3_holdout.py": "e78b4f0cb99817154937762a08e6f66b4e2d9adfd4d4d88175d823d1b8366792",
+  "run_round3.ps1": "dcf3954fbc430aa0beaaf10f6d651dbf736b265bfe01e077ac703beef33a5e1b",
+  "test_iteration.py": "1d04adca720030b370ef78488896b408d90a0a1b0eb263df2614c47db2f7dcc1",
+  "vendor/rescomp/manifest.json": "44f75c9e6ed1c8f976ede878e76babdf1ad79dc0cbdb35ec492e3a2b4bbcbc72",
+  "vendor/rescomp/gptaq_utils_r.py": "3c489a326bcb9dbf02a33eb4a7bc32692ed8e6a3afd2083a00ce774fd126922f",
+  "reports/round3_protocol.md": "676d2586a1f1e3c5955bd18f2a6c7f7d61c91c81ca9467fd17bc0ca8ad73c3e0",
+  "quant_core_null_endpoint.py": "92e40ceadd99d3878ff76200535fa834edfecdb3278d125add1f5f00d374e6c7"
+}

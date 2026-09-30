@@ -1,0 +1,18 @@
+{
+  "dataset": "Salesforce/wikitext",
+  "config": "wikitext-2-raw-v1",
+  "revision_requested": "main",
+  "seed": 2,
+  "splits": {
+    "train": {
+      "fingerprint": "f54db43fc558c83c",
+      "documents": 10127,
+      "file_sha256": "901552c117ada1b3ca516ce38a1682b7d62c2470ecf30482569d5e0ffcf99eb0"
+    },
+    "validation": {
+      "fingerprint": "cdcbf3e3a70d438b",
+      "documents": 1059,
+      "file_sha256": "4bd59f600555119e69f1f4222e4c7ab976c235103f4bac85361e3e2d0cf449b1"
+    }
+  }
+}

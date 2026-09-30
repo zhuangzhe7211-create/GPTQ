@@ -1,0 +1,140 @@
+{
+  "selected": {
+    "12": {
+      "weight_only": "tau1",
+      "hybrid": "tau1_bias",
+      "wiki_only_hybrid": "tau1_bias",
+      "gptq": "tau0",
+      "bias_only": "tau0_bias",
+      "block192": "tau1"
+    },
+    "18": {
+      "weight_only": "tau0.5",
+      "hybrid": "tau0.5_bias",
+      "wiki_only_hybrid": "tau1_bias",
+      "gptq": "tau0",
+      "bias_only": "tau0_bias",
+      "block192": "tau1"
+    }
+  },
+  "development_gaps": {
+    "12": {
+      "tau0": {
+        "wiki": 0.0,
+        "ptb_seen": 0.0
+      },
+      "tau0_bias": {
+        "wiki": -0.003329885502656301,
+        "ptb_seen": -0.0082928699751695
+      },
+      "tau1": {
+        "wiki": -0.020478287090857823,
+        "ptb_seen": -0.013490215564767519
+      },
+      "tau0.5": {
+        "wiki": -0.012402138362328211,
+        "ptb_seen": -0.011362602313359579
+      },
+      "tau0.5_bias": {
+        "wiki": -0.013836697985728582,
+        "ptb_seen": -0.01411100042363008
+      },
+      "tau1_bias": {
+        "wiki": -0.0211058147251606,
+        "ptb_seen": -0.014619695022702217
+      }
+    },
+    "18": {
+      "tau0": {
+        "wiki": 0.0,
+        "ptb_seen": 0.0
+      },
+      "tau0_bias": {
+        "wiki": -0.0002332081397374471,
+        "ptb_seen": -0.0035637648155291877
+      },
+      "tau1": {
+        "wiki": -0.006070176760355632,
+        "ptb_seen": 0.00038999132812023163
+      },
+      "tau0.5": {
+        "wiki": -0.004703102012475331,
+        "ptb_seen": -0.0012130122631788254
+      },
+      "tau0.5_bias": {
+        "wiki": -0.004369191825389862,
+        "ptb_seen": -0.0031527820974588394
+      },
+      "tau1_bias": {
+        "wiki": -0.006012180199225743,
+        "ptb_seen": -0.00021678581833839417
+      }
+    }
+  },
+  "worst_domain_gap": {
+    "12": {
+      "tau0": 0.0,
+      "tau0_bias": -0.003329885502656301,
+      "tau1": -0.013490215564767519,
+      "tau0.5": -0.011362602313359579,
+      "tau0.5_bias": -0.013836697985728582,
+      "tau1_bias": -0.014619695022702217
+    },
+    "18": {
+      "tau0": 0.0,
+      "tau0_bias": -0.0002332081397374471,
+      "tau1": 0.00038999132812023163,
+      "tau0.5": -0.0012130122631788254,
+      "tau0.5_bias": -0.0031527820974588394,
+      "tau1_bias": -0.00021678581833839417
+    }
+  },
+  "config_sha256": {
+    "results\\round7_l12_s0\\config.json": "27a3161026fe75cbca66d6480cf58d7c9a5debda88cb30862ec684dbeef8a707",
+    "results\\round7_l12_s1\\config.json": "cfe57a04b0986a1d2d09e6eaf0dee3ff39ce692d4fbe52b38e1a6c72c02803d1",
+    "results\\round7_l12_s2\\config.json": "9e40baf8633b0229669f31dd5333234475ddba843975c0434342c64690aa5f71",
+    "results\\round7_l18_s0\\config.json": "ad7b9de474bd64700e85ce0c458221ff447c8a8ad3570a98339330019d1c0857",
+    "results\\round7_l18_s1\\config.json": "f658e1de67d28762d674ae811b657de61ffe2b7cec3967d42953a1df0ab05e06",
+    "results\\round7_l18_s2\\config.json": "5f3de5991b085b7d906b12111eb391e2428780932c4f80532622ed2290a9c986"
+  },
+  "checkpoint_sha256": {
+    "results\\round7_l12_s0\\tau0.pt": "9f96c4b343e8482f2863dcf40f91df5031bacaab31d0585f478cbe7e92ba4983",
+    "results\\round7_l12_s0\\tau1_bias.pt": "2130233800c9bf0167cf01e61ccaa426b8259a31d3fc7c118441411166a36d88",
+    "results\\round7_l12_s0\\tau1.pt": "b993099d46ccfb2502c8ca32c5e8effd84fde72a6d340c9cfd3d13a2e8a8fd7a",
+    "results\\round7_l12_s0\\tau0_bias.pt": "bfce771e7952eaec939eb079dd8fc261ed5531986913734ce3a111c13ef61caa",
+    "results\\round7_l12_s1\\tau0.pt": "4e23b8d6f224836633117bb490537685aadd721797b45edf9f7c07f473da0172",
+    "results\\round7_l12_s1\\tau1_bias.pt": "02fe288109511cb069f4c64e4d1636155c8d61bb349533d1242b7331fb91d5fa",
+    "results\\round7_l12_s1\\tau1.pt": "d807f2e12b57fc69e09419883359bfe1d93941b906908112a8aee36a365fbefa",
+    "results\\round7_l12_s1\\tau0_bias.pt": "6fb69771ef352a77a0e953d8b0be1f8c4c419fb754e1895e45548ccc2a933d56",
+    "results\\round7_l12_s2\\tau0.pt": "a3f762c346e9f3cd6033e91be5da79b731be2d54926e89f8f86637846d5b9902",
+    "results\\round7_l12_s2\\tau1_bias.pt": "998a14c9285f83d37cf8fbedfa49561985496b60af9714ff7f2e1daf7001f973",
+    "results\\round7_l12_s2\\tau1.pt": "c96bec3a4c38ff2213f9048b538b28c24aae208b8c5e3da85ec6170bc477205f",
+    "results\\round7_l12_s2\\tau0_bias.pt": "8092246960ed70a2a67f723a9fb97beb2e18f06764eb661da5a43a1c0d63da1f",
+    "results\\round7_l18_s0\\tau1.pt": "24a48f6f79d83f21c65a5312b7ee009bbc92e6d9cb036283aca75d9e459264ac",
+    "results\\round7_l18_s0\\tau0.pt": "9a320fde0910cc96481a055d1f8c7f72086166ce280a1a1156c6a92599e31fca",
+    "results\\round7_l18_s0\\tau0.5.pt": "54bd6505381db564bd5bde9a8eb5203fee6fbdbfe69d24001d5a878cf0d8c3e2",
+    "results\\round7_l18_s0\\tau0.5_bias.pt": "adbb0c4a3be74fa9cb2f54b4938a5883886642f04bb5be4ba78232909a0ce092",
+    "results\\round7_l18_s0\\tau1_bias.pt": "30ff11015c9caa68317b362251dbaf0e1c1243d1b2c755a4b8aa7736fe7a8228",
+    "results\\round7_l18_s0\\tau0_bias.pt": "2a4537305f5478767b94de6889e955fb8411260f674a04f166208462c9520243",
+    "results\\round7_l18_s1\\tau1.pt": "69d9199bcc81cddcdceb3b0b49f10bad1ae167fd7e3857ad12bc65f2a9faff40",
+    "results\\round7_l18_s1\\tau0.pt": "495fde16f7f93c35820a8f801a1d0a4663d312e2c5801981f8777cd949433eb8",
+    "results\\round7_l18_s1\\tau0.5.pt": "0beef1adfc96ef906c376b4e78d89fdecabddf0c6d695fca5c04bb2987a32481",
+    "results\\round7_l18_s1\\tau0.5_bias.pt": "b2ca24e3e536cef523560efcad1d63c5e5528d58115dc8087fe09d0281a8e76e",
+    "results\\round7_l18_s1\\tau1_bias.pt": "216f3d1b32615a3b2591578994be4f2d21bdbbc9207d63e85e03d395e31c2ee1",
+    "results\\round7_l18_s1\\tau0_bias.pt": "24df2853e3459f8607b760342a95f3c14d3a8d4812a686949eeecb7b500f219e",
+    "results\\round7_l18_s2\\tau1.pt": "a2fe4e442629113b17d12a49882ea0120a13f9f2dcef399199a37ff12b98b683",
+    "results\\round7_l18_s2\\tau0.pt": "51f92e3dc73d385d38e95884a3045f550e568118f085b0a865893e10e48ac3f3",
+    "results\\round7_l18_s2\\tau0.5.pt": "ce532b251f8253f9774f12dab73531d38f7eb8b8d01a89bf19bfb9cf7ceb3b5c",
+    "results\\round7_l18_s2\\tau0.5_bias.pt": "28cb495221309d6e2d4239228367b62cb4b982841d8be3b68630ff302606640c",
+    "results\\round7_l18_s2\\tau1_bias.pt": "7265ab1b1761d313a649527b4aafd8b6a5a08d1a2d6820a7773669f7a058e411",
+    "results\\round7_l18_s2\\tau0_bias.pt": "3aa6ffdfbf9682946160e5007d4ef1bcb37d438f7f6250ca2f344044c1a22d37"
+  },
+  "source_sha256": {
+    "evaluate_round7.py": "a5bc267e5db4aa0051d7907e3c189df8b7c84c095da676157e15e736d0fee7fa",
+    "run_round7.py": "c7c6b387ff4d2d5d9a7ae084ae5b7725489b7dcd7ef5b36f02c03351e9fe8c57",
+    "round7_safety.py": "2f6bcc27ed8215ea0b77341ca7bc50a6c1a70818ed6e9ebdf544be4f096f31bf",
+    "gpu_safety.py": "e8a66f7ce2dea38f9c67abc9a40842a9c8d9cfbed68db3fb80bd1f742c0b8675"
+  },
+  "rule": "Minimize worst development-domain mean CE gap to GPTQ; same choice for all three seeds.",
+  "holdout_manifest_sha256": "868a5f21b6d1a34c0f73d394b4b8b4ea46eb0f712c41b42139a2fc1253a09a91"
+}

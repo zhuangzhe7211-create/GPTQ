@@ -1,0 +1,29 @@
+{
+  "complete": true,
+  "tests_passed": 24,
+  "local_links_checked": 111,
+  "broken_links": [],
+  "source_archives_verified": [
+    6,
+    7
+  ],
+  "summary_verification": {
+    "grid_candidates": 36,
+    "new": 18,
+    "reused": 18,
+    "all_frozen_hashes_match": true,
+    "selection_recomputed": true
+  },
+  "prior_metric_entries_unchanged": 71,
+  "new_missing_entries_computed": 3,
+  "figure_visually_reviewed": true,
+  "artifacts_sha256": {
+    "reports/final_report.md": "c4ea51c8a12aadb05587699ad9e55b920ae1f5775468374092bd2d24e05db6f2",
+    "reports/round7_report.md": "da8c871a937f6f5eea737df972172563642dbaafbddee43c4494edd92d82dc4e",
+    "docs/TECHNICAL_WALKTHROUGH.md": "b964ae9dab29bc53af2bacf49022c0dea11d46b7434a6f42217a4385c740eaf3",
+    "README.md": "1a0263fc654de8233458593cd2f5b722bdf6b600209dd6b81487056e405d7881",
+    "results/README.md": "196fb8ca71d099000adecac4ff99118989468427eedf33f9dec5eb251a8a772b",
+    "docs/START_HERE.md": "39a80c4de6074487f7fbdbd1ba2d76af6897a3c890d7db16b4fdf59a1bc2ac26",
+    "RUN_SAFELY.md": "f6be3384cd120cd9591961804809a0534eb3f4905e4c2dccdaca8a2a9ada68fc"
+  }
+}

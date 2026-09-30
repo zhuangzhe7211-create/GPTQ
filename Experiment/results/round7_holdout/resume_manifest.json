@@ -1,0 +1,13 @@
+{
+  "reason": "OSError Errno 22 while saving resources.json; no method/selection changes",
+  "preserved_entries": 71,
+  "missing": [
+    "ptb_valid/l18/s2/block192",
+    "shakespeare/l18/s2/bias_only",
+    "shakespeare/l18/s2/block192"
+  ],
+  "resume_source_sha256": "a3f04edd4862cf04efe754f88ae0a3aacf5677132f6fc96d464f0e5a851c7ccd",
+  "original_selection_sha256": "73e7104135757b876af2e255fd80b948eb2b0e10ea0a1772e013570bd3a25084",
+  "interrupted_elapsed_estimate_seconds": 1856.967770576477,
+  "interrupted_metrics_sha256": "19967fc43ca17c3d74462129c29384a469f9ca3997fb022ce90c264c72b4f48a"
+}
